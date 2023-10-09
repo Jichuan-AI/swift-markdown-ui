@@ -44,17 +44,17 @@ public struct RawTaskListItem: Hashable {
   let children: [BlockNode]
 }
 
-enum RawTableColumnAlignment: Character {
+public enum RawTableColumnAlignment: Character {
   case none = "\0"
   case left = "l"
   case center = "c"
   case right = "r"
 }
 
-struct RawTableRow: Hashable {
+public struct RawTableRow: Hashable {
   let cells: [RawTableCell]
 }
 
-struct RawTableCell: Hashable {
+public struct RawTableCell: Hashable {
   let content: [InlineNode]
 }
