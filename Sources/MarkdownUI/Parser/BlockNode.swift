@@ -35,7 +35,7 @@ extension BlockNode {
   }
 }
 
-struct RawListItem: Hashable {
+public struct RawListItem: Hashable {
   let children: [BlockNode]
 }
 
