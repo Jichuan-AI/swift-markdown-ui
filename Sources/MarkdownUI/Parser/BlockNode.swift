@@ -39,7 +39,7 @@ public struct RawListItem: Hashable {
   let children: [BlockNode]
 }
 
-struct RawTaskListItem: Hashable {
+public struct RawTaskListItem: Hashable {
   let isCompleted: Bool
   let children: [BlockNode]
 }
